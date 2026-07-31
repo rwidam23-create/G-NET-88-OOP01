@@ -26,6 +26,20 @@
             //   It loss control over read/write permissions (For Example:preventing external code from modifying
             //   values after creation or making fields read-only).
             #endregion
+
+            #region Question02(b)
+            // 1:Enables data validation
+            ///The public properties it provides us with parts called { get,set} we can write a condition
+            //inside it like(for) to reject any incorrect data such as negative values for weight or fess,
+            // for example
+            //2:Controlled Access permissions
+            // properties it lets us control who does what for example we use(get,private set) To make
+            //The data readable from outside but modifiable only from within the struct it self.
+            // 3:Data protection$ Encapsolution
+            //Making variable private hides internal data from direct modification from outside the code
+            //forcing anyone interacting with them to go through protected properties first.
+            #endregion
+
         }
     }
 }
