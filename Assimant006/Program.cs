@@ -40,6 +40,29 @@
             //forcing anyone interacting with them to go through protected properties first.
             #endregion
 
+            #region part02(1)
+            //DeliveryAddress add01 = new DeliveryAddress()
+            //{
+            //    city = "cairo",
+            //    street = "Elhram",
+            //    buildingNumber = 50
+            //};
+
+            //DeliveryAddress add02 = new DeliveryAddress()
+            //{
+            //    city = "tanta",
+            //    street = "taha elhkeem",
+            //    buildingNumber = 30
+            //};
+            //Console.WriteLine("Before change====");
+            //Console.WriteLine(add01);
+            //Console.WriteLine(add02);
+            //add02 = add01;
+            //Console.WriteLine("After  change======");
+            //Console.WriteLine(add01);
+            //Console.WriteLine(add02);
+            #endregion
+
         }
     }
 }
