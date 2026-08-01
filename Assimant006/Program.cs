@@ -3,7 +3,7 @@
     internal class Program
     {
         static void Main(string[] args)
-        {
+        { 
             #region Question01(a)
             // Copying a struct (Value type ) creates complete,independent copy of the Data
             //Modifying a new Copy is Created on the stack
@@ -79,7 +79,34 @@
             //Console.WriteLine("==after update==");
             //shimpment01.printShipment();
 
-            #endregion 
+            #endregion
+
+            #region part02(5)
+            
+    //        {
+    //            DeliveryCenter center = new DeliveryCenter();
+
+    //            Shipment s1 = new Shipment("RY-100", "Laptop", 2.5, 50m, new DeliveryAddress());
+    //            Shipment s2 = new Shipment("RY-200", "Phone", 0.8, 30m, new DeliveryAddress());
+
+    //            bool isAdded1 = center.AddShipment(s1);
+    //            bool isAdded2 = center.AddShipment(s2);
+
+    //            Console.WriteLine($"Shipment 1 Added: {isAdded1}"); 
+    //            Console.WriteLine($"Shipment 2 Added: {isAdded2}"); 
+    //            Console.WriteLine("-----------------------------------");
+
+    //            Console.WriteLine("--- Testing Integer Indexer [0] ---");
+    //            Shipment retrievedByIndex = center[0];
+    //            retrievedByIndex.printShipment();
+
+    //            Console.WriteLine("--- Testing String Indexer [\"RY-2500\"] ---");
+    //            Shipment retrievedByCode = center["RY-200"];
+    //            retrievedByCode.printShipment();
+    //        }
+    //    }
+    //}
+            #endregion
 
 
 
@@ -88,6 +115,6 @@
 
 
 
-        }
-    }
 }
+    
+
