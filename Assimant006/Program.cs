@@ -63,13 +63,20 @@
             //Console.WriteLine(add02);
             #endregion
 
-            
-          
-            
+            #region part02(3)
+            ////3:
+            //Shipment Shipment01 = new Shipment("RY-3091");
+            ////DeliveryAddress add = new DeliveryAddress();
+            //Shipment Shipment02 = new Shipment("RY-2222", "programming", 22, 30m, new DeliveryAddress());
+            //Console.WriteLine($"TrackingCode:{Shipment01.TrackingCode},Description:{Shipment01.Destination},Weight:{Shipment01.Weight},deliveryfee:{Shipment01.DeliveryFee}");
+            //Console.WriteLine($"TrackingCode:{Shipment02.TrackingCode},Description:{Shipment02.Destination},Weight:{Shipment02.Weight},deliveryfee:{Shipment02.DeliveryFee}");
+            #endregion
 
 
 
-        
+
+
+
 
 
         }
