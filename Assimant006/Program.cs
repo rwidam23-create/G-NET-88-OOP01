@@ -72,6 +72,15 @@
             //Console.WriteLine($"TrackingCode:{Shipment02.TrackingCode},Description:{Shipment02.Destination},Weight:{Shipment02.Weight},deliveryfee:{Shipment02.DeliveryFee}");
             #endregion
 
+            #region part02(4)
+            //Shipment shimpment01= new Shipment("rwida");
+            //shimpment01.printShipment();
+            //shimpment01.UpdateDelivaryFee(88);
+            //Console.WriteLine("==after update==");
+            //shimpment01.printShipment();
+
+            #endregion 
+
 
 
 
